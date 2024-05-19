@@ -1,4 +1,4 @@
-const apiKey = "4e1cc60636288c88c655b17fbd084dcc"
+const key = (src: "key.js");
 let apiData =[];
 let cityData = [];
 const mainUrl = 'https://api.openweathermap.org'
