@@ -4,7 +4,7 @@ const mainUrl = 'https://api.openweathermap.org'
 const requestUrl = `https://api.openweathermap.org/data/2.5/weather?lat=40.6499974&lon=-74.33916531&appid=4e1cc60636288c88c655b17fbd084dcc`;
 const cityEntered = document.getElementById('#cityName');
 
-
+//
 
 // Using weather API to pull Lat and Lon of the city entered in the search box
 function getCityApi(){
