@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>My Weather Forecast App</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/style.css" />
-  <title>My Weather Forecast App</title>
-</head>
+  <body class="main flex-column min-100-vh">
+    <header class="hero">
+      <h1 class="app-title">Weather Dash Board</h1>
+    </header>
 
-<body class="main flex-column min-100-vh">
-  <header class="hero">
-    <h1 class="app-title">
-      Weather Dash Board
-    </h1>
-  </header>
-
-
-  <main class="flex-row">
-    <div class="col-12 col-md-4">
-
-      <div class="card-form" id="appendSearch">
-        <h3 class="card-header text-uppercase">Search By City</h3>
-        <form id="user-form" class="card-body">
-          <label class="form-label" for="CityName">CityName</label>
-          <input name="cityname" id="cityName" type="text" autofocus="true" class="form-input" placeholder="Please Enter City Here" />
-          <button type="submit" class="btn" id="searchButton">Get Forecast</button>
-        </form>
-        
+    <main class="flex-row">
+      <div class="col-12 col-md-4">
+        <div class="card-form" id="appendSearch">
+          <h3 class="card-header text-uppercase">Search By City</h3>
+          <form id="user-form" class="card-body">
+            <label class="form-label" for="CityName">CityName</label>
+            <input
+              name="cityname"
+              id="cityName"
+              type="text"
+              autofocus="true"
+              class="form-input"
+              placeholder="Please Enter City Here"
+            />
+            <button type="submit" class="btn" id="searchButton">
+              Get Forecast
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
-    
+    </main>
 
-  </main>
-  <script src="key.js"></script>
-  <script src="assets/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
-    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
-</body>
-
+    <script src="assets/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
