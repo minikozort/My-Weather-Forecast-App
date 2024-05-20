@@ -101,7 +101,6 @@ main {
   background-color: var(--primary);
   color: var(--dark);
   display: flex;
-  padding-left: 300px;
   box-shadow: 6px 5px var(--light-dark);
   justify-content: center;
 }
