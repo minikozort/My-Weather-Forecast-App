@@ -10,7 +10,7 @@ Simply go on to the website and type in the search box the city that you want th
 
 Enjoy!
 
-Deployed version link: 
+Deployed version link: https://minikozort.github.io/My-Weather-Forecast-App/
 
 ![alt text](Weather-Forecast-App-Landing-Page.png)
 ![alt text](Weather-Forecast-App-In-Use.png)
