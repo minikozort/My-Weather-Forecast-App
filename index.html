@@ -11,7 +11,7 @@
   <title>My Weather Forecast App</title>
 </head>
 
-<body class="flex-column min-100-vh">
+<body class="main flex-column min-100-vh">
   <header class="hero">
     <h1 class="app-title">
       Weather Dash Board
@@ -22,27 +22,21 @@
   <main class="flex-row justify-space-between">
     <div class="col-12 col-md-4">
 
-      <div class="card">
+      <div class="card" id="appendSearch">
         <h3 class="card-header text-uppercase">Search By City</h3>
         <form id="user-form" class="card-body">
           <label class="form-label" for="username">CityName</label>
-          <input name="username" id="cityName" type="text" autofocus="true" class="form-input" />
-          <button type="submit" class="btn">Get Forecast</button>
+          <input name="cityname" id="cityName" type="text" autofocus="true" class="form-input" />
+          <button type="submit" class="btn" id="searchButton">Get Forecast</button>
         </form>
-      </div>
-    </div>
-    <div class="card w-60">
-      <div class="card-body">
-        <h5 class="card-title">Current City</h5>
-        <p class="card-text">Temperature--------------------------------------------------------------</p>
-        <p class="card-text">Wing Speed---------------------------------------------------------------</p>
-        <p class="card-text">Humidity-----------------------------------------------------------------</p>
       </div>
     </div>
 
   </main>
   <script src="key.js"></script>
   <script src="assets/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
 </body>
 
 </html>
